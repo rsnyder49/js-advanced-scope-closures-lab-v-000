@@ -22,12 +22,12 @@ function produceTipCalculator(tip) {
 function createDriver() {
   let driverID = 0;
   
-  class Driver {
+  return class Driver {
     constructor(name) {
       this.name = name;
       this.id = ++driverId;
     }
-  }
+  };
 }
 
 

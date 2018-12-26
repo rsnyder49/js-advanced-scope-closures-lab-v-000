@@ -19,4 +19,15 @@ function produceTipCalculator(tip) {
   };
 }
 
-function createDriver()
+function createDriver() {
+  let driverID = 0;
+  
+  class Driver {
+    constructor() {
+      
+    }
+  }
+}
+
+
+

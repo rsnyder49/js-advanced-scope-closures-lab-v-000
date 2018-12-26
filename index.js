@@ -1,4 +1,4 @@
-function produceDrivingRange(trip) {
+function produceDrivingRange(blockRange) {
   return function(startBlock, endBlock) {
     let start = parseInt(beginning);
     let end = parseInt(ending);

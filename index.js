@@ -1,13 +1,13 @@
 function produceDrivingRange(trip) {
-  return function(beginning, ending) {
+  return function(startBlock, endBlock) {
     let start = parseInt(beginning);
     let end = parseInt(ending);
     let diffTravel = Math.abs(end-start);
     let difference = blockRange - diffTravel;
-    if(difference > 0) {
+    if (difference > 0) {
       return `within range by ${difference}`;
     }
-    else{
+    else {
       return `${Math.abs(difference)} blocks out of range`;
     }
   };

@@ -1,4 +1,4 @@
-function produceDrivingRange() {
+function produceDrivingRange(trip) {
   return function {
     
   }
